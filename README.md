@@ -1,4 +1,4 @@
-# Renamerged
+# RenamergedV3
 
 Selamat datang di **Renamerged**! Aplikasi ini adalah solusi praktis untuk mengelola file PDF, terutama dokumen pajak atau transaksi bisnis. Renamerged (singkatan dari *Rename-Merged*) dirancang untuk mengotomatisasi proses *rename* dan *merge* file PDF berdasarkan informasi seperti ID TKU Penjual dan Nama Lawan Transaksi, sehingga dokumen Anda tersusun rapi tanpa kerja manual yang melelahkan.
 
@@ -6,8 +6,9 @@ Renamerged hadir dengan GUI modern yang intuitif, mendukung kustomisasi nama fil
 
 <img width="860" height="616" alt="image" src="https://github.com/user-attachments/assets/c04e5ad7-982c-47bb-9037-9efd24e6327a" />
 
+## Download di sini https://renamerged.id
 
-## Apa Itu Renamerged?
+## Apa Itu RenamergedV3?
 
 Renamerged adalah alat efisien untuk mengelola file PDF dengan fitur berikut:
 
@@ -36,98 +37,7 @@ Aplikasi ini sangat cocok untuk Anda yang sering menangani dokumen pajak, transa
 - **Tombol Donasi**: Dukung pengembangan proyek ini dengan donasi via tombol di GUI.
 - **Contact Developer**: Tombol "Hubungi Dev" untuk langsung menghubungi developer melalui Telegram jika ada kendala.
 
-## Sistem Persyaratan
-
-Untuk menjalankan source code:
-
-- **Python**: Versi 3.8 atau lebih baru.
-
-- **Library**: Lihat `requirements.txt`. Instal dengan:
-
-  ```bash
-  pip install -r requirements.txt
-  ```
-
-- **Sistem Operasi**: Windows 10 atau lebih baru (versi macOS/Linux mungkin perlu penyesuaian).
-
-- **RAM**: Minimal 2 GB.
-
-- **Penyimpanan**: Minimal 50 MB ruang kosong untuk aplikasi dan log.
-
-## Struktur Proyek
-
-```
-renamerged/
-|-- main.py               # entry CLI/GUI
-|-- main.pyw              # entry tanpa console
-|-- requirements.txt
-|-- changelogs.txt
-|-- README.md
-|-- src/
-|   |-- app/
-|   |   |-- gui.py                  # bootstrap UI
-|   |   `-- __init__.py
-|   |-- components/                # komponen UI
-|   |   |-- draggable_component.py
-|   |   |-- settings_frame.py
-|   |   |-- file_selection_frame.py
-|   |   |-- status_frame.py
-|   |   |-- process_button.py
-|   |   |-- progress_bar.py
-|   |   |-- header.py
-|   |   |-- tooltip.py
-|   |   |-- pdf_counter.py
-|   |   |-- custom_pdf_dialog.py
-|   |   |-- file_input_output.py
-|   |   |-- filename_warning_dialog.py
-|   |   |-- mode_selection.py
-|   |   |-- output_location.py
-|   |   |-- file_list.py
-|   |   |-- statistics.py
-|   |   `-- __init__.py
-|   |-- pdf/                      # logic PDF
-|   |   |-- pdf_processor.py
-|   |   |-- pdf_processor_rename.py
-|   |   |-- pdf_utils.py
-|   |   `-- __init__.py
-|   `-- utils/                    # utilitas umum
-|       |-- styles.py
-|       |-- settings_manager.py
-|       |-- selection_handler.py
-|       |-- filename_checker.py
-|       |-- utils.py
-|       `-- __init__.py
-`-- old/                        # versi lama (legacy scripts)
-    |-- renamerged.py
-    `-- rename.py
-```
-## Cara Pakai
-
-1. **Clone Repository**:
-
-   ```bash
-   git clone https://github.com/iunoxid/renamerged
-   cd renamerged
-   ```
-
-2. **Instal Dependensi**: Pastikan Python terinstal, lalu instal dependensi:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Jalankan Aplikasi**: Jalankan aplikasi tanpa jendela CMD:
-   
-   ```bash
-   python main.py
-   ```
-   atau 
-   
-   ```bash
-   Klik 2x pada file "main.pyw"
-   ```
-
-5. **Gunakan Aplikasi**:
+**Gunakan Aplikasi**:
 
    - Pilih mode pemrosesan: "Rename Saja" atau "Rename dan Merge".
    - Jika memilih "Rename Saja", centang komponen nama file (Nama Lawan Transaksi, Tanggal Faktur Pajak, dll.) dan atur urutannya dengan drag & drop atau panah ←/→.
