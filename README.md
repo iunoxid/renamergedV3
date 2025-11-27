@@ -1,4 +1,4 @@
-# RenamergedV3
+# Renamerged V3
 
 Selamat datang di **Renamerged**! Aplikasi ini adalah solusi praktis untuk mengelola file PDF, terutama dokumen pajak atau transaksi bisnis. Renamerged (singkatan dari *Rename-Merged*) dirancang untuk mengotomatisasi proses *rename* dan *merge* file PDF berdasarkan informasi seperti ID TKU Penjual dan Nama Lawan Transaksi, sehingga dokumen Anda tersusun rapi tanpa kerja manual yang melelahkan.
 
